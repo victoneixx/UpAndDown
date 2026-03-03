@@ -1,4 +1,4 @@
-var _ry = choose(0, 16, 32);
+var _ry = choose(0, 16, 32, 48);
 var _column = choose("down", "up");
 if(_column == "down"){
 	var _down = instance_create_layer(336, 176 + _ry, layer, obj_column_down);
