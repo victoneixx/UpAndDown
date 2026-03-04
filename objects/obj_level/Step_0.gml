@@ -1,8 +1,9 @@
 if(global.level < 10){
 	if(global.score >= global.score_list[global.level -1]){
-		global.less_delay += 4;
+		global.less_delay += 1.2;
 		global.level += 1;
 	}
+	time_d -= global.less_delay;
 }
 
 if(global.score >= global.best_score){
