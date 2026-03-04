@@ -1,1 +1,1 @@
-global.score += 7;
+global.score += 50;
