@@ -1,6 +1,6 @@
 if(global.level < 10){
 	if(global.score >= global.score_list[global.level -1]){
-		global.less_delay += 0.3;
+		global.less_delay += 4;
 		global.level += 1;
 	}
 }
