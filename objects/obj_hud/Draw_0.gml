@@ -1,0 +1,1 @@
+draw_sprite_stretched(spr_hud_bg, 0, 0, 0, room_width, 16);

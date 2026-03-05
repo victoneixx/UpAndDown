@@ -1,3 +1,4 @@
+if(global.gameover == true) exit;
 var _keyboard = keyboard_check_pressed(vk_space);
 velv += gravi;
 velv = clamp(velv, -12, 12);
